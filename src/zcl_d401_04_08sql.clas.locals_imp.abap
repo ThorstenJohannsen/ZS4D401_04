@@ -1,0 +1,17 @@
+CLASS lcl_demo DEFINITION .
+
+  PUBLIC SECTION.
+    CLASS-METHODS summe
+                         RETURNING VALUE(rv_result) TYPE i.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+
+ENDCLASS.
+
+CLASS lcl_demo IMPLEMENTATION.
+
+  METHOD summe.
+    rv_result = 100.
+  ENDMETHOD.
+
+ENDCLASS.
